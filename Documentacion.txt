@@ -1,0 +1,13 @@
+npm init en el archivo para generar el jason
+npm install express para importar un paquete con muchas librerias
+npm install -ss para que se descarguen automaticamente
+en el package.jason en lo de main se genera index pero ponemos server y creamos un archivo en la raiz con ese nombre.
+Para ejecutarlo seria el comando node serverver.js el nombre es el archivo main
+Para comprobarlo te vas al localhost:3000 el puerto es el que hemos puesto en el código
+npm install --s express-session dependencia del login
+npm install cookie-parser dependencia
+
+**Conectar con bdd**
+npm install --s mongoose //Para que lo guarde en dependecias el --s
+npm install --s mongodb
+const mongose = require("mongoose");//En el archivo de server.js

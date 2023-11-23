@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/mostrar" >Mostrar Usuarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido/a al Juego de las 21</h2>
+        
+        <div class="bienvenida">
+            <div class="contenedorBanca">
+                <div class="jugadores">
+                    <h3>Cartas de la Banca</h3>
+                    <img class="imagen" src="img/banca.jpg" alt="banca">
+                </div>                    
+                    <div class="cartas">
+                        <div class="cartasBanca">
+                            <img id="cartaBanca1" src="img/trasera.png" alt="trasera">
+                            <img id="cartaBanca2" src="img/trasera.png" alt="trasera">
+                            <img id="cartaBanca3" src="img/trasera.png" alt="trasera">
+                            <img id="cartaBanca4" src="img/trasera.png" alt="trasera">
+                            <img id="cartaBanca5" src="img/trasera.png" alt="trasera">
+                            <img id="cartaBanca6" src="img/trasera.png" alt="trasera">
+                            <p>Contador de cartas: <span id="contadorBanca">0</span></p><br>
+                            <button id="botonBanca1" onclick="añadirCartaBancaHtml()">PedirCarta</button>
+                            <!--<button id="botonBanca1" onclick="añadirTerceraCartaBanca()">Pedir 1 Carta</button>
+                            <button id="botonBanca2" onclick="añadirCuartaCartaBanca()">Pedir 1 Carta</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorJugador">
+                    <div class="jugadores">
+                        <h3>Cartas del Jugador</h3>
+                        <img class="imagen" src="img/jugador.jpg" alt="jugador">
+                    </div>
+                
+                    
+                <div class="cartas">
+                    <div class="cartasJugador">
+                        <img id="cartaJugador1" src="img/trasera.png" alt="trasera">
+                        <img id="cartaJugador2" src="img/trasera.png" alt="trasera">
+                        <img id="cartaJugador3" src="img/trasera.png" alt="trasera">
+                        <img id="cartaJugador4" src="img/trasera.png" alt="trasera">
+                        <img id="cartaJugador5" src="img/trasera.png" alt="trasera">
+                        <img id="cartaJugador6" src="img/trasera.png" alt="trasera">
+                        <p>Contador de cartas: <span id="contadorJugador">0</span></p><br>
+                        <button id="botonJugador1" onclick="añadirCartaJugadorHtml()">Pedir Carta</button>
+                        <!--<button id="botonJugador1" onclick="añadirTerceraCartaJugador()">Pedir 1 Carta</button>
+                        <button id="botonJugador2" onclick="añadirCuartaCartaJugador()">Pedir 1 Carta</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="empezar" onclick="empezarJuego()">Empezar Juego</button>
+        </div>
+        <div>
+            <button id="resultados" onclick="ganador()">Fin del Juego</button>
+        </div>
+ 
+        <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3498db;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+    text-align: center;
+}
+
+
+h2 {
+    color: #3498db;
+}
+
+
+.jugadores {
+    margin: 20px 0;
+}
+
+
+.imagen {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.cartas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.cartas img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #207dbb;
+}
+
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.bienvenida {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.contenedorBanca {
+    flex: 1;
+    align-self: stretch;
+}
+
+
+.contenedorJugador {
+    flex: 1;
+    
+    align-self: stretch;
+}
+
+.elementosGuia{
+    display: flex;
+}
+.elementos{
+    text-align: left;
+    flex: 1;
+}
+.instrucciones{
+    text-align: left;
+    flex:1;
+}

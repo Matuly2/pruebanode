@@ -1,0 +1,62 @@
+/* Estilos para la lista */
+.list-container {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para los elementos de la lista */
+.list-item {
+    flex-grow: 1;
+}
+
+.list-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.list-item-description {
+    color: #555;
+}
+
+.list-item-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.list-item-actions button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list-item-actions button:hover {
+    background-color: #207dbb;
+}

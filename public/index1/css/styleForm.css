@@ -1,0 +1,67 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #654ea3, #eaafc8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos para el contenedor del formulario */
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+h2 {
+    color: #eaafc8;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de los campos de entrada */
+label {
+    color: #7e6d99;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Estilos para los campos de entrada de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 2px solid #7e6d99;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    color: #7e6d99;
+}
+
+/* Estilos para el botón de inicio de sesión */
+button {
+    background: linear-gradient(135deg, #654ea3, #eaafc8);
+    color: #fff;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+/* Estilos para el botón de inicio de sesión al pasar el mouse por encima */
+button:hover {
+    background: linear-gradient(135deg, #eaafc8, #654ea3);
+}
